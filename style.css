@@ -1,0 +1,52 @@
+body {
+    background-image: url(img/index.jpeg);
+}
+.container {
+    margin: auto;
+    width: 800px;
+    height: 400px;
+    background-color: aqua;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+h1 {
+    text-align: center;
+}
+.form {
+    margin: 10px 45px 10px 45px;
+    text-align: center;
+    border-radius: 10px;
+}
+ input{
+    width: 700px ;
+}
+.textarea{
+    width: 700px;
+    height: 100px;
+}
+.button {
+    background-color: royalblue;
+    border-radius: 20px;
+}
+.table{
+    margin: auto;
+    padding: 10px;
+    width: 800px;
+    background-color: rgb(35, 223, 35);
+    text-align: center;
+    border-radius: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+td, th {
+    border:1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+    width: auto;
+}
+tr:nth-child(even) {
+    background-color: #898b8f;
+}
